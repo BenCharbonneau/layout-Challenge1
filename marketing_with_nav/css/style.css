@@ -1,0 +1,74 @@
+body {
+	height: 100vh;
+}
+
+header,footer,article,section,a,h1 {
+	margin: 1%;
+	background-color: #DDDDDD;
+	border: 2px solid #BBBBBB;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: white;
+	border: none;
+}
+
+h1 {
+	margin: 0 5% 0 0;
+	width: 20%;
+	float: left;
+	height: 100%;
+}
+
+nav {
+	width: 70%;
+	float: right;
+	height: 100%;
+}
+
+nav a,h1 {
+	display: inline-block;
+}
+
+nav a {
+	width: 20%;
+	height: 40%;
+	margin-top: 5%;
+}
+
+section {
+	display: inline-block;
+}
+
+header,footer {
+	height: 15%;
+}
+
+article {
+	height: 44%;
+}
+
+section {
+	display: inline-block;
+	height: 18%;
+	width: 31.3%;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
