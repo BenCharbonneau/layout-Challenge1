@@ -1,0 +1,28 @@
+body {
+	height: 100vh;
+}
+
+header,footer,article,section {
+	margin: 1%;
+	background-color: #DDDDDD;
+	border: 2px solid #BBBBBB;
+	box-sizing: border-box;
+}
+
+article, section {
+	display: inline-block;
+}
+
+header,footer {
+	height: 15%;
+}
+
+article {
+	height: 44%;
+	width: 48%;
+}
+
+section {
+	height: 18%;
+	width: 31.3%;
+}
